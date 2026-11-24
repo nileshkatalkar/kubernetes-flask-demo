@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: nileshkatalkar/jenkins-flask-app:1
+          image: nileshkatalkar/jenkins-flask-app:latest
           ports:
             - containerPort: 5000
           readinessProbe:
